@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="preference_file_key">app_preference_file_key</string>
+
+    <!-- 1c = 1000 -->
+    <string name="default_delay_update_service">5000</string>
+</resources>

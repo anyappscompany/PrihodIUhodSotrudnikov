@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Приход и уход сотрудников</string>
+    <string name="app_description">Эффективное управление \nи гибкая масштабируемость</string>
+    <string name="rb_login_text">Вход</string>
+    <string name="rb_activation_text">Активация устройства</string>
+    <string name="et_key_hint">Ключ доступа</string>
+    <string name="btn_generate_access_key_text">Создать ключ доступа</string>
+    <string name="btn_sign_in_text">Продолжить</string>
+
+    <string name="connect_dialog_title">Пожалуйста ожидайте...</string>
+    <string name="connect_dialog_message">Соединение с сервером...</string>
+
+    <string name="alert_dialog_show_access_key_title">Ключ доступа</string>
+    <string name="alert_dialog_show_access_key_message">Поздравляю! Вы получили ключ доступа. <b>Обязательно сохраните его.</b> Без ключа невозможно управление приложением и просмотр статистики.</string>
+    <string name="alert_dialog_positive_button_text">Продолжить</string>
+    <string name="alert_dialog_negative_button_text">Отмена</string>
+
+    <string name="et_pin_code_hint">ПИН-код</string>
+    <string name="btn_save_employee_text">Сохранить</string>
+    <string name="rb_has_come_text">Пришел</string>
+    <string name="rb_gone_text">Ушел</string>
+
+    <string name="default_server_time_text">Синхронизация времени ...</string>
+
+    <string name="main_activity_menu_text_update_employees">Обновить сотрудников</string>
+    <string name="main_activity_menu_text_settings">Настройки</string>
+    <string-array name="app_errors">
+        <item>Ключ доступа не получен. Сервер вернул ошибку.</item>
+        <item>Ключ доступа не получен. Отказ сервера.</item>
+        <item>Активация не удалась. Сервер вернул ошибку.</item>
+        <item>Активация не удалась. Отказ сервера.</item>
+        <item>Ошибка. Проверьте правильность введенных данных.</item>
+        <item>Ошибка. Не удалось создать запись в базе данных.</item>
+    </string-array>
+    <!-- settings -->
+    <string name="title_activity_settings_for_admin">Настройки</string>
+    <string name="gtm_settings">Время по Гринвичу (GMT)</string>
+    <string name="time_settings_header_title">Выбор часового пояса</string>
+
+    <string name="btn_enter_to_settings_text">Далее</string>
+    <string name="tv_pre_settings_activity_info_for_user">Настройки приложения защищены паролем.\nВведите ключ доступа</string>
+
+    <string name="employee_added_dialog_title">Информация</string>
+    <string name="employee_added_dialog_message">Поздравляем! Ваше действие сохранено в базе данных.</string>
+    <string name="employee_added_dialog_button_text">Хорошо</string>
+</resources>

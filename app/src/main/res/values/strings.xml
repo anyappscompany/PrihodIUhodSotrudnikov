@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Arrival and departure of employee</string>
+    <string name="app_description">Efficient management \nand flexible scalability</string>
+    <string name="rb_login_text">Sign In</string>
+    <string name="rb_activation_text">Device activation</string>
+    <string name="et_key_hint">Access key</string>
+    <string name="btn_generate_access_key_text">Create access key</string>
+    <string name="btn_sign_in_text">Continue</string>
+
+    <string name="connect_dialog_title">Please Wait...</string>
+    <string name="connect_dialog_message">Connecting to server...</string>
+
+    <string name="alert_dialog_show_access_key_title">Access key</string>
+    <string name="alert_dialog_show_access_key_message">Congratulations! You got an access key. <b>Be sure to save it.</b> Without a key, it is impossible to control the application and view statistics.</string>
+    <string name="alert_dialog_positive_button_text">Continue</string>
+    <string name="alert_dialog_negative_button_text">Cancel</string>
+
+    <string name="et_pin_code_hint">PIN number</string>
+    <string name="btn_save_employee_text">Save</string>
+    <string name="rb_has_come_text">Has come</string>
+    <string name="rb_gone_text">Gone</string>
+
+    <string name="default_server_time_text">Time synchronization ...</string>
+
+    <string name="main_activity_menu_text_update_employees">Update employees</string>
+    <string name="main_activity_menu_text_settings">Settings</string>
+
+    <string-array name="app_errors">
+        <item>Access Key is not received. The server returned an error.</item>
+        <item>Access Key is not received. Server failure.</item>
+        <item>Activation failed. The server returned an error.</item>
+        <item>Activation failed. Server Failure.</item>
+        <item>Error. Check the correctness of the entered data.</item>
+        <item>Error. Failed to create a record in the database.</item>
+    </string-array>
+
+
+    <!-- settings -->
+    <string name="title_activity_settings_for_admin">Settings</string>
+    <string name="gtm_settings">Greenwich Mean Time (GMT)</string>
+    <string name="time_settings_header_title">Time zone selection</string>
+
+    <string name="btn_enter_to_settings_text">Next</string>
+    <string name="tv_pre_settings_activity_info_for_user">Application settings are password protected.\nEnter access key</string>
+
+    <string name="employee_added_dialog_title">Information</string>
+    <string name="employee_added_dialog_message">Congratulations! Your action is saved in the database.</string>
+    <string name="employee_added_dialog_button_text">Ok</string>
+
+    <!--<string name="sync_header">Sync</string>
+
+     Messages Preferences
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <Sync Preferences
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>-->
+</resources>
